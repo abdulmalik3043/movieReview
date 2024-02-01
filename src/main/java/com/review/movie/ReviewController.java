@@ -16,7 +16,7 @@ import com.review.movie.service.ReviewService;
 
 @RestController
 @RequestMapping("/api/v1/reviews")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class ReviewController {
 
 	@Autowired
